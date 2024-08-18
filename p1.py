@@ -6,9 +6,10 @@ import pandas as pd
 
 # Initialize the Conva AI client
 client = ca.AsyncConvaAI(
-    assistant_id="80f53fe61834436d99afccd9b566c2b5", 
+    #use ur credentials here
+    assistant_id="", 
     assistant_version="28.0.0", 
-    api_key="e162cc8d8db04ffca385c9f569d04365",
+    api_key="",
 )
 
 # Asynchronous function to retrieve patient details using Conva AI
